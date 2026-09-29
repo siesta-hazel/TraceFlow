@@ -1,10 +1,10 @@
-# 📦 TraceFlow Logistics Center
+# TraceFlow Logistics Center
 
 TraceFlow is a modern supply chain and inventory management dashboard built with an **ASP.NET Core Web API** backend and a **React + Vite** single-page application frontend. It enables real-time tracking of warehouse inventory and fulfillment workflows.
-This was made for acadmeic purposes.
+This was made for academic purposes.
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * **Backend:** C# / .NET (ASP.NET Core Web API, Entity Framework Core)
 * **Frontend:** React 18, Vite, Tailwind CSS
@@ -13,7 +13,7 @@ This was made for acadmeic purposes.
 
 ---
 
-## 🛠️ Project Architecture
+## Project Architecture
 
 ```
 CSharp/
@@ -36,7 +36,7 @@ CSharp/
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ npm run dev
 
 ---
 
-## 📡 API Proxy Configuration
+## API Proxy Configuration
 
 The React frontend uses Vite's built-in development proxy to route `/api` calls directly to your .NET server, avoiding CORS issues during local development.
 
@@ -122,7 +122,7 @@ export default defineConfig({
 
 ---
 
-## 📋 API Endpoints Summary
+## API Endpoints Summary
 
 ### Inventory / Stock (`/api/inventory`)
 
@@ -139,7 +139,7 @@ export default defineConfig({
 
 ---
 
-## 🧪 Sample Test Data
+## Sample Test Data
 
 To seed your database or test API endpoints manually via PowerShell or Postman:
 
