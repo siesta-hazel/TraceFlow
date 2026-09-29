@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\data\\traceflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\data\\traceflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\traceflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\traceflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|d:\\projects\\excelr\\csharp\\traceflow.api\\traceflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C3F6618-5509-48B5-92E5-BA846BB7698F}|TraceFlow.API\\TraceFlow.API.csproj|solutionrelative:traceflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TraceFlowDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Data\\TraceFlowDbContext.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Data\\TraceFlowDbContext.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Data\\TraceFlowDbContext.cs",
+              "RelativeToolTip": "TraceFlow.API\\Data\\TraceFlowDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:03:21.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShipmentsController.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Controllers\\ShipmentsController.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Controllers\\ShipmentsController.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Controllers\\ShipmentsController.cs",
+              "RelativeToolTip": "TraceFlow.API\\Controllers\\ShipmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:07:12.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\DTOs.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Models\\DTOs.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\DTOs.cs",
+              "RelativeToolTip": "TraceFlow.API\\Models\\DTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:02:14.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "TraceFlow.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:06:37.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "TraceFlow.API\\wwwroot\\index.html",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\wwwroot\\index.html*",
+              "RelativeToolTip": "TraceFlow.API\\wwwroot\\index.html*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-29T12:08:41.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Models\\Product.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\Product.cs",
+              "RelativeToolTip": "TraceFlow.API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:00:23.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shipment.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\Shipment.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Models\\Shipment.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Models\\Shipment.cs",
+              "RelativeToolTip": "TraceFlow.API\\Models\\Shipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T12:00:59.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TraceFlow.API",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\TraceFlow.API.csproj",
+              "RelativeDocumentMoniker": "TraceFlow.API\\TraceFlow.API.csproj",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\TraceFlow.API.csproj",
+              "RelativeToolTip": "TraceFlow.API\\TraceFlow.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-29T12:02:42.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Program.cs",
+              "RelativeDocumentMoniker": "TraceFlow.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\Program.cs",
+              "RelativeToolTip": "TraceFlow.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:56:22.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TraceFlow.API\\appsettings.json",
+              "ToolTip": "D:\\Projects\\ExcelR\\CSharp\\TraceFlow.API\\TraceFlow.API\\appsettings.json",
+              "RelativeToolTip": "TraceFlow.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T12:11:14.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
