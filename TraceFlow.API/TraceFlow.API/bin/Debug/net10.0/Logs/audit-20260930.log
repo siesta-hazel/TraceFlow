@@ -198,3 +198,141 @@ SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NO
 2026-09-30 12:32:39.070 +05:30 [INF] [TraceFlow.API] Application started. Press Ctrl+C to shut down.
 2026-09-30 12:32:39.074 +05:30 [INF] [TraceFlow.API] Hosting environment: Production
 2026-09-30 12:32:39.075 +05:30 [INF] [TraceFlow.API] Content root path: D:\Projects\ExcelR\CSharp\final_project\TraceFlow.API\TraceFlow.API\bin\Debug\net10.0
+2026-09-30 13:43:47.835 +05:30 [INF] [TraceFlow.API] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-09-30 13:43:47.912 +05:30 [INF] [TraceFlow.API] Starting TraceFlow API Engine on port 8080...
+2026-09-30 13:43:47.991 +05:30 [INF] [TraceFlow.API] Now listening on: http://0.0.0.0:8080
+2026-09-30 13:43:47.995 +05:30 [INF] [TraceFlow.API] Application started. Press Ctrl+C to shut down.
+2026-09-30 13:43:47.997 +05:30 [INF] [TraceFlow.API] Hosting environment: Production
+2026-09-30 13:43:48.000 +05:30 [INF] [TraceFlow.API] Content root path: D:\Projects\ExcelR\CSharp\final_project\TraceFlow.API\TraceFlow.API\bin\Debug\net10.0
+2026-09-30 13:46:28.633 +05:30 [INF] [TraceFlow.API] Application is shutting down...
+2026-09-30 13:47:55.615 +05:30 [INF] [TraceFlow.API] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-09-30 13:47:55.714 +05:30 [INF] [TraceFlow.API] Starting TraceFlow API Engine...
+2026-09-30 13:47:55.916 +05:30 [INF] [TraceFlow.API] Now listening on: http://localhost:5000
+2026-09-30 13:47:55.923 +05:30 [INF] [TraceFlow.API] Application started. Press Ctrl+C to shut down.
+2026-09-30 13:47:55.927 +05:30 [INF] [TraceFlow.API] Hosting environment: Production
+2026-09-30 13:47:55.929 +05:30 [INF] [TraceFlow.API] Content root path: D:\Projects\ExcelR\CSharp\final_project\TraceFlow.API\TraceFlow.API\bin\Debug\net10.0
+2026-09-30 13:48:04.061 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/inventory - null null
+2026-09-30 13:48:04.063 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/shipments - null null
+2026-09-30 13:48:04.286 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:04.286 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:04.356 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetShipments", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Shipment]]] GetShipments() on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:04.356 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetProducts", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Product]]] GetProducts() on controller TraceFlow.API.Controllers.InventoryController (TraceFlow.API).
+2026-09-30 13:48:05.099 +05:30 [INF] [TraceFlow.API] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CreatedAt", "s"."ProductId", "s"."Quantity", "s"."Status", "s"."TrackingNumber", "s"."UpdatedAt", "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Shipments" AS "s"
+INNER JOIN "Products" AS "p" ON "s"."ProductId" = "p"."Id"
+2026-09-30 13:48:05.108 +05:30 [INF] [TraceFlow.API] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Products" AS "p"
+2026-09-30 13:48:05.574 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Shipment, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:05.649 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Product, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:05.728 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API) in 1356.6547ms
+2026-09-30 13:48:05.728 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API) in 1350.203ms
+2026-09-30 13:48:05.734 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/inventory - null null
+2026-09-30 13:48:05.734 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/shipments - null null
+2026-09-30 13:48:05.732 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:05.734 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:05.744 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:05.744 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:05.751 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetProducts", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Product]]] GetProducts() on controller TraceFlow.API.Controllers.InventoryController (TraceFlow.API).
+2026-09-30 13:48:05.754 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetShipments", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Shipment]]] GetShipments() on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:05.758 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/inventory - 200 null application/json; charset=utf-8 1714.338ms
+2026-09-30 13:48:05.758 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/shipments - 200 null application/json; charset=utf-8 1714.3701ms
+2026-09-30 13:48:05.854 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Products" AS "p"
+2026-09-30 13:48:05.859 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Product, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:05.864 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API) in 107.214ms
+2026-09-30 13:48:05.865 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CreatedAt", "s"."ProductId", "s"."Quantity", "s"."Status", "s"."TrackingNumber", "s"."UpdatedAt", "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Shipments" AS "s"
+INNER JOIN "Products" AS "p" ON "s"."ProductId" = "p"."Id"
+2026-09-30 13:48:05.867 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:05.871 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Shipment, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:05.873 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/inventory - 200 null application/json; charset=utf-8 138.8843ms
+2026-09-30 13:48:05.875 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API) in 113.8169ms
+2026-09-30 13:48:05.883 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:05.884 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/shipments - 200 null application/json; charset=utf-8 150.8247ms
+2026-09-30 13:48:14.108 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 POST http://localhost:5000/api/shipments - application/json 65
+2026-09-30 13:48:14.118 +05:30 [INF] [TraceFlow.API] CORS policy execution successful.
+2026-09-30 13:48:14.122 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.CreateShipment (TraceFlow.API)'
+2026-09-30 13:48:14.147 +05:30 [INF] [TraceFlow.API] Route matched with {action = "CreateShipment", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateShipment(TraceFlow.API.Models.CreateShipmentRequest) on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:14.312 +05:30 [INF] [TraceFlow.API] Executed DbCommand (6ms) [Parameters=[@p='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Products" AS "p"
+WHERE "p"."Id" = @p
+LIMIT 1
+2026-09-30 13:48:14.686 +05:30 [INF] [TraceFlow.API] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "AvailableQuantity" = @p0
+WHERE "Id" = @p1 AND "RowVersion" = @p2
+RETURNING 1;
+2026-09-30 13:48:14.710 +05:30 [INF] [TraceFlow.API] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Guid), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Size = 12), @p6='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shipments" ("Id", "CreatedAt", "ProductId", "Quantity", "Status", "TrackingNumber", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-09-30 13:48:14.767 +05:30 [INF] [TraceFlow.API] INVENTORY DEDUCTION: Stock for SKU 'SKU-SNEAKER-01' reduced by 1. Remaining: 48. Order Tracking Number: TRK-C8DD26E0
+2026-09-30 13:48:14.773 +05:30 [INF] [TraceFlow.API] Executing CreatedAtActionResult, writing value of type 'TraceFlow.API.Models.Shipment'.
+2026-09-30 13:48:14.824 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.CreateShipment (TraceFlow.API) in 674.6317ms
+2026-09-30 13:48:14.828 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.CreateShipment (TraceFlow.API)'
+2026-09-30 13:48:14.831 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 POST http://localhost:5000/api/shipments - 201 null application/json; charset=utf-8 722.8763ms
+2026-09-30 13:48:14.837 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/shipments - null null
+2026-09-30 13:48:14.837 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/inventory - null null
+2026-09-30 13:48:14.841 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:14.846 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:14.847 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetShipments", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Shipment]]] GetShipments() on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:14.849 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetProducts", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Product]]] GetProducts() on controller TraceFlow.API.Controllers.InventoryController (TraceFlow.API).
+2026-09-30 13:48:14.853 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CreatedAt", "s"."ProductId", "s"."Quantity", "s"."Status", "s"."TrackingNumber", "s"."UpdatedAt", "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Shipments" AS "s"
+INNER JOIN "Products" AS "p" ON "s"."ProductId" = "p"."Id"
+2026-09-30 13:48:14.856 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Products" AS "p"
+2026-09-30 13:48:14.860 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Shipment, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:14.864 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Product, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:14.865 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API) in 13.1748ms
+2026-09-30 13:48:14.867 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API) in 12.687ms
+2026-09-30 13:48:14.869 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:14.872 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:14.873 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/shipments - 200 null application/json; charset=utf-8 36.982ms
+2026-09-30 13:48:14.877 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/inventory - 200 null application/json; charset=utf-8 39.9967ms
+2026-09-30 13:48:17.741 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 PATCH http://localhost:5000/api/shipments/c4d73061-ed93-4b73-829d-5f80dd3dbc13/status - application/json 15
+2026-09-30 13:48:17.745 +05:30 [INF] [TraceFlow.API] CORS policy execution successful.
+2026-09-30 13:48:17.748 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.UpdateStatus (TraceFlow.API)'
+2026-09-30 13:48:17.761 +05:30 [INF] [TraceFlow.API] Route matched with {action = "UpdateStatus", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateStatus(System.Guid, TraceFlow.API.Models.UpdateShipmentStatusRequest) on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:17.802 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[@p='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CreatedAt", "s"."ProductId", "s"."Quantity", "s"."Status", "s"."TrackingNumber", "s"."UpdatedAt"
+FROM "Shipments" AS "s"
+WHERE "s"."Id" = @p
+LIMIT 1
+2026-09-30 13:48:17.808 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Shipments" SET "Status" = @p0, "UpdatedAt" = @p1
+WHERE "Id" = @p2
+RETURNING 1;
+2026-09-30 13:48:17.830 +05:30 [INF] [TraceFlow.API] STATUS UPDATE: Shipment 'TRK-C8DD26E0' transitioned from "Pending" to "InTransit"
+2026-09-30 13:48:17.833 +05:30 [INF] [TraceFlow.API] Executing OkObjectResult, writing value of type 'TraceFlow.API.Models.Shipment'.
+2026-09-30 13:48:17.836 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.UpdateStatus (TraceFlow.API) in 72.5671ms
+2026-09-30 13:48:17.837 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.UpdateStatus (TraceFlow.API)'
+2026-09-30 13:48:17.839 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 PATCH http://localhost:5000/api/shipments/c4d73061-ed93-4b73-829d-5f80dd3dbc13/status - 200 null application/json; charset=utf-8 97.201ms
+2026-09-30 13:48:17.845 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/inventory - null null
+2026-09-30 13:48:17.845 +05:30 [INF] [TraceFlow.API] Request starting HTTP/1.1 GET http://localhost:5000/api/shipments - null null
+2026-09-30 13:48:17.848 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:17.852 +05:30 [INF] [TraceFlow.API] Executing endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:17.853 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetProducts", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Product]]] GetProducts() on controller TraceFlow.API.Controllers.InventoryController (TraceFlow.API).
+2026-09-30 13:48:17.855 +05:30 [INF] [TraceFlow.API] Route matched with {action = "GetShipments", controller = "Shipments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TraceFlow.API.Models.Shipment]]] GetShipments() on controller TraceFlow.API.Controllers.ShipmentsController (TraceFlow.API).
+2026-09-30 13:48:17.859 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Products" AS "p"
+2026-09-30 13:48:17.861 +05:30 [INF] [TraceFlow.API] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CreatedAt", "s"."ProductId", "s"."Quantity", "s"."Status", "s"."TrackingNumber", "s"."UpdatedAt", "p"."Id", "p"."AvailableQuantity", "p"."Name", "p"."RowVersion", "p"."SKU", "p"."UnitPrice"
+FROM "Shipments" AS "s"
+INNER JOIN "Products" AS "p" ON "s"."ProductId" = "p"."Id"
+2026-09-30 13:48:17.862 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Product, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:17.865 +05:30 [INF] [TraceFlow.API] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TraceFlow.API.Models.Shipment, TraceFlow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-30 13:48:17.866 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API) in 8.0511ms
+2026-09-30 13:48:17.867 +05:30 [INF] [TraceFlow.API] Executed action TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API) in 6.9177ms
+2026-09-30 13:48:17.868 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.InventoryController.GetProducts (TraceFlow.API)'
+2026-09-30 13:48:17.869 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
+2026-09-30 13:48:17.870 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/inventory - 200 null application/json; charset=utf-8 25.4037ms
+2026-09-30 13:48:17.871 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/shipments - 200 null application/json; charset=utf-8 26.2564ms
