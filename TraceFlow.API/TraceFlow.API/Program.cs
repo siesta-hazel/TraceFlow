@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,6 +9,10 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using TraceFlow.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
@@ -20,7 +25,7 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<TraceFlowDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=traceflow.db"));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -48,6 +53,8 @@ app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
 
+app.MapFallbackToFile("index.html");
+
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<TraceFlowDbContext>();
@@ -56,7 +63,7 @@ using (var scope = app.Services.CreateScope())
 
 try
 {
-    Log.Information("Starting TraceFlow API Engine...");
+    Log.Information($"Starting TraceFlow API Engine on port {port}...");
     app.Run();
 }
 catch (Exception ex)

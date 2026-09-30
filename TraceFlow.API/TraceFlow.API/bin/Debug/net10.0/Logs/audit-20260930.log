@@ -191,3 +191,10 @@ INNER JOIN "Products" AS "p" ON "s"."ProductId" = "p"."Id"
 2026-09-30 00:10:40.352 +05:30 [INF] [TraceFlow.API] Executed endpoint 'TraceFlow.API.Controllers.ShipmentsController.GetShipments (TraceFlow.API)'
 2026-09-30 00:10:40.357 +05:30 [INF] [TraceFlow.API] Request finished HTTP/1.1 GET http://localhost:5000/api/shipments - 200 null application/json; charset=utf-8 28.9967ms
 2026-09-30 00:12:05.037 +05:30 [INF] [TraceFlow.API] Application is shutting down...
+2026-09-30 12:32:38.829 +05:30 [INF] [TraceFlow.API] Executed DbCommand (557ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2026-09-30 12:32:38.901 +05:30 [INF] [TraceFlow.API] Starting TraceFlow API Engine on port 8080...
+2026-09-30 12:32:39.063 +05:30 [INF] [TraceFlow.API] Now listening on: http://0.0.0.0:8080
+2026-09-30 12:32:39.070 +05:30 [INF] [TraceFlow.API] Application started. Press Ctrl+C to shut down.
+2026-09-30 12:32:39.074 +05:30 [INF] [TraceFlow.API] Hosting environment: Production
+2026-09-30 12:32:39.075 +05:30 [INF] [TraceFlow.API] Content root path: D:\Projects\ExcelR\CSharp\final_project\TraceFlow.API\TraceFlow.API\bin\Debug\net10.0
