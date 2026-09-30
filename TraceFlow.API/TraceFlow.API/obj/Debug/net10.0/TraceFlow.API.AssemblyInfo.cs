@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraceFlow.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0bbafa33162088acc35fb5d4383928e9e71c2bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e62d45d718380bfbfd0f3c4b732d2537e03c9a18")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraceFlow.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraceFlow.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
